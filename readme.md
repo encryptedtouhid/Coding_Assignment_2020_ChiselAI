@@ -42,4 +42,4 @@ Make sure that python3  is installed on the machine, and "LRUCache.py" & "main.p
 ### Running `main.py`
 
 1. Open a terminal window and navigate to the `LRUCache` folder.
-3. Run the following command: `python3 main.py`
+3. Run the following command: `python main.py`
