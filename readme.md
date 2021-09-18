@@ -38,7 +38,10 @@ File containing how to use `LRUCache` functions.
   
   
 ## Setting up and running the code
-Make sure that [python3](https://www.python.org/downloads/)  is installed on the machine, and "LRUCache.py" & "main.py"  are downloaded and in the same directory.
+1) Make sure that [python3](https://www.python.org/downloads/)  is installed on the machine.
+2) After installing Python 3 and setting up a virtual environment. [ [Follow This](https://gist.github.com/MichaelCurrin/3a4d14ba1763b4d6a1884f56a01412b7#install-into-the-environment) ]
+3) Download "LRUCache.py" & "main.py"  in the same directory.
+
 ### Running `main.py`
 
 1. Open a terminal window and navigate to the `LRUCache` folder.
