@@ -58,7 +58,7 @@ C
 
 ================ Putting Extra Value to Exceed Maximum Limit of Cache ================
 
-C Added
+D Added
 
 ================ Showing All New Key & Values from Cache ================
 

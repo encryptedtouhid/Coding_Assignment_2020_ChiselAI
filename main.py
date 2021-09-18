@@ -18,7 +18,7 @@ def main():
 
     print('================ Putting Extra Value to Exceed Maximum Limit of Cache ================')
     cache.put(4, 'D')
-    print(cache.get(3) + ' Added')
+    print(cache.get(4) + ' Added')
 
     print('================ Showing All New Key & Values from Cache ================')
     print(cache.cache)
