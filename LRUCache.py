@@ -5,9 +5,9 @@ class LRUCache:
 
     # initialising default constructor
     # initializing max capacity of cache
-    def __init__(self, maximumcapacity: int):
+    def __init__(self, maximum_capacity: int):
         self.cache = OrderedDict()
-        self.size = maximumcapacity
+        self.size = maximum_capacity
 
     def put(self, key: int, value: int) -> None:
         self.cache[key] = value  # mapping key with value
