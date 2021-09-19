@@ -9,7 +9,7 @@ class LRUCache:
         self.cache = OrderedDict()
         self.size = maximum_capacity
 
-    def put(self, key: int, value: int) -> None:
+    def put(self, key: int, value: str) -> None:
         self.cache[key] = value  # mapping key with value
         self.cache.move_to_end(key)  # putting them in last
         if len(self.cache) > self.size:  # checking if the cache maximum size limit exceeding or not.
@@ -33,3 +33,4 @@ class LRUCache:
 
     def reset(self) -> bool:
         self.cache = ""  # resetting all value
+        return True
