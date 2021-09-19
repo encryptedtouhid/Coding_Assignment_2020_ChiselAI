@@ -3,7 +3,7 @@ from LRUCache import LRUCache
 
 
 class TestLRUCache(unittest.TestCase):
-    def test_put(self):
+    def test_Main(self):
         cache = LRUCache(3)
         self.assertIsNone(cache.put(1, 'A'))
         self.assertIsNone(cache.put('One', 'A'))
